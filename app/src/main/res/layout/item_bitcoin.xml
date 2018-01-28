@@ -13,8 +13,9 @@
 
         <ImageView
             android:id="@+id/item_icon"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/margin_small"
             android:contentDescription="@string/iconDescription"/>
 
         <TextView
@@ -24,6 +25,8 @@
             android:layout_toEndOf="@id/item_icon"
             android:layout_marginStart="@dimen/margin_small"
             android:layout_marginEnd="@dimen/margin_small"
+            android:textSize="20sp"
+            android:textStyle="bold"
             android:ellipsize="end"/>
 
     </RelativeLayout>
